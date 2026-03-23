@@ -8,24 +8,36 @@
   </head>
   <body>
     <header class="topo">
-      <h1>Controle ne Notas Fiscais</h1>
-      <p>Gerenciar suas notas de forma simples e organzadas</p>
+      <div class="icone">
+        <ion-icon name="document-text-outline" id="icon"> </ion-icon>
+      </div>
+      <div>
+         <h1>Controlador de Notas Fiscais</h1>
+         <p>Gerencie suas notas de forma simples e organizada</p>
+      </div>
+    
     </header>
 
     <main>
       <div class="escanear">
+        <ion-icon name="qr-code-outline" id="qr"></ion-icon>
         <h1>Escaner Nota Fiscal</h1>
         <p>
           capture o QR code da sua nota fiscal para adicionar automaticamente
         </p>
+        <div class="botoes">
 
         <button class="camera">
-            <ion-icon name="camera-outline"></ion-icon>
-            Escanear com camera</button>
+            <ion-icon name="camera-outline" id="camera-icone"></ion-icon>
+            Escanear com camera
+          </button>
+
         <button class="imagem">
-           <ion-icon name="download-outline"></ion-icon>
+           <ion-icon name="download-outline" ></ion-icon>
            Upload de Imagem          
         </button>
+
+        </div>
       </div>
 
        <div class="atalhos">
