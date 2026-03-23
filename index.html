@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topo">
+      <h1>Controle ne Notas Fiscais</h1>
+      <p>Gerenciar suas notas de forma simples e organzadas</p>
+    </header>
+
+    <main>
+      <div class="escanear">
+        <h1>Escaner Nota Fiscal</h1>
+        <p>
+          capture o QR code da sua nota fiscal para adicionar automaticamente
+        </p>
+
+        <button class="camera">
+            <ion-icon name="camera-outline"></ion-icon>
+            Escanear com camera</button>
+        <button class="imagem">
+           <ion-icon name="download-outline"></ion-icon>
+           Upload de Imagem          
+        </button>
+      </div>
+
+       <div class="atalhos">
+          <div class="Buscar">
+             <ion-icon name="search-outline"></ion-icon>
+             <input type="text" id="estabelecimento" placeholder="Buscar estabelecimento">
+          </div>
+         
+        <button>
+           todos os estabelecimentos
+        </button>
+
+        <button>
+          Adicionar Manual
+        </button>
+
+        <button>
+          Exportar Excel
+        </button>
+       </div>
+       <div class="tabela">
+         <table>
+            <tr>
+                <td>19/03/2026	R$ 156,80	Supermercado Central</td>
+            </tr>
+            <tr>
+                <td>19/03/2026	R$ 156,80	Supermercado Central</td>
+            </tr>
+            <tr>
+                <td>19/03/2026	R$ 156,80	Supermercado Central</td>
+            </tr>
+         </table>
+       </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
