@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Scanner</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="topo">
@@ -12,10 +12,9 @@
         <ion-icon name="document-text-outline" id="icon"> </ion-icon>
       </div>
       <div>
-         <h1>Controlador de Notas Fiscais</h1>
-         <p>Gerencie suas notas de forma simples e organizada</p>
+        <h1>Controlador de Notas Fiscais</h1>
+        <p>Gerencie suas notas de forma simples e organizada</p>
       </div>
-    
     </header>
 
     <main>
@@ -26,51 +25,42 @@
           capture o QR code da sua nota fiscal para adicionar automaticamente
         </p>
         <div class="botoes">
-
-        <button class="camera">
+          <button class="camera">
             <ion-icon name="camera-outline" id="camera-icone"></ion-icon>
             Escanear com camera
           </button>
 
-        <button class="imagem">
-           <ion-icon name="download-outline" ></ion-icon>
-           Upload de Imagem          
-        </button>
-
+          <button class="imagem">
+            <ion-icon name="download-outline" id="imagem-icone"></ion-icon>
+            Upload de Imagem
+          </button>
         </div>
       </div>
 
-       <div class="atalhos">
-          <div class="Buscar">
-             <ion-icon name="search-outline"></ion-icon>
-             <input type="text" id="estabelecimento" placeholder="Buscar estabelecimento">
-          </div>
-         
-        <button>
-           todos os estabelecimentos
-        </button>
+      <div class="atalhos">
+        <button class="btn">
+          <ion-icon name="search-outline"></ion-icon>
+          Buscar Estabelecimento</button>
 
-        <button>
-          Adicionar Manual
-        </button>
+        <button class="btn">todos os estabelecimentos</button>
 
-        <button>
-          Exportar Excel
-        </button>
-       </div>
-       <div class="tabela">
-         <table>
-            <tr>
-                <td>19/03/2026	R$ 156,80	Supermercado Central</td>
-            </tr>
-            <tr>
-                <td>19/03/2026	R$ 156,80	Supermercado Central</td>
-            </tr>
-            <tr>
-                <td>19/03/2026	R$ 156,80	Supermercado Central</td>
-            </tr>
-         </table>
-       </div>
+        <button class="btn">Adicionar Manual</button>
+
+        <button class="btn">Exportar Excel</button>
+      </div>
+      <div class="tabela">
+        <table>
+          <tr>
+            <td>19/03/2026 R$ 156,80 Supermercado Central</td>
+          </tr>
+          <tr>
+            <td>19/03/2026 R$ 156,80 Supermercado Central</td>
+          </tr>
+          <tr>
+            <td>19/03/2026 R$ 156,80 Supermercado Central</td>
+          </tr>
+        </table>
+      </div>
     </main>
 
     <script

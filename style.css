@@ -74,7 +74,7 @@ header {
 
 .camera {
   background-color: #7c3aed;
-  border-radius: 10px;
+  border-radius: 6px;
   color: white;
   border: none;
   padding: 8px;
@@ -87,6 +87,37 @@ header {
 
 #camera-icone {
   font-size: 1.5em;
+}
+
+.imagem {
+  border: 1px solid #7c3aed83;
+  background-color: white;
+  border-radius: 6px;
+  color: #7c3aed;
+  padding: 8px;
+  margin: 10px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+}
+
+#imagem-icone {
+  font-size: 1.4em;
+}
+
+.atalhos {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+
+    border-radius: 8px;
 }
 
 table {
