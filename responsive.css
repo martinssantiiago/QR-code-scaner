@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+ .atalhos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+button {
+    margin: 5px;
+}
+
+#drop {
+  margin: 5px;
+  width: 400px;
+}
+
+#procurar {
+    margin: 5px auto;
+    width: 400px;
+}
+
+.dropdown-menu {
+    width: 400px;
+}
+
+
+.dropdown{
+  display: flex;
+  
+  margin: auto;
+}
+}
