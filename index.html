@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
+      <!--cabecalho-->
     <header class="topo">
       <div class="icone">
         <ion-icon name="document-text-outline" id="icon"> </ion-icon>
@@ -19,13 +20,20 @@
       </div>
     </header>
 
+    <!--estrutura principal(main)-->
+
     <main>
+
+      <!--parte de escanear ou colocar uma igamem do QR CODE-->
+
       <div class="escanear">
         <ion-icon name="qr-code-outline" id="qr"></ion-icon>
         <h1>Escaner Nota Fiscal</h1>
         <p>
           capture o QR code da sua nota fiscal para adicionar automaticamente
         </p>
+       
+
         <div class="botoes">
           <button class="camera">
             <ion-icon name="camera-outline" id="camera-icone"></ion-icon>
@@ -38,14 +46,18 @@
           </button>
         </div>
       </div>
-
+    <!--botoes de atalho (buscar, dropdown, adicionar manual)--> 
       <div class="atalhos">
+    
+       <div id="estab">
        <div id="procurar">
         <label for="search">
           <ion-icon name="search-outline"></ion-icon>
         </label>
         <input type="text" id="search" placeholder="Buscar por estabelecimento"/>
+
       </div>
+
       
       <div class="dropdown">
         
@@ -60,16 +72,22 @@
           </ul>
         </div>
 
+        </div>
+   
+        <div id="botoes">
         <button>
           <ion-icon name="add-outline"></ion-icon>
           Adicionar Manual
         </button>
-          <button>
+
+        <button>
           <ion-icon name="add-outline"></ion-icon>
           Adicionar Manual
         </button>
-        </button>
+        </div>
+ 
       </div>
+    <!--Tabela que vai ser gerada com informacoes do QR CODE-->
       <div class="tabela">
         <table>
           <tr>
@@ -85,7 +103,7 @@
       </div>
     </main>
     
-
+  <!--scripts-->
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
