@@ -27,6 +27,7 @@
       <!--parte de escanear ou colocar uma igamem do QR CODE-->
 
       <div class="escanear">
+
         <ion-icon name="qr-code-outline" id="qr"></ion-icon>
         <h1>Escaner Nota Fiscal</h1>
         <p>
@@ -35,6 +36,7 @@
        
 
         <div class="botoes">
+
           <button class="camera">
             <ion-icon name="camera-outline" id="camera-icone"></ion-icon>
             Escanear com camera
@@ -44,51 +46,54 @@
             <ion-icon name="download-outline" id="imagem-icone"></ion-icon>
             Upload de Imagem
           </button>
+
         </div>
+
       </div>
     <!--botoes de atalho (buscar, dropdown, adicionar manual)--> 
       <div class="atalhos">
     
-       <div id="estab">
-       <div id="procurar">
+    <div id="btns">
+
+      <div id="procurar">
         <label for="search">
           <ion-icon name="search-outline"></ion-icon>
         </label>
         <input type="text" id="search" placeholder="Buscar por estabelecimento"/>
-
-      </div>
-
-      
-      <div class="dropdown">
         
-          <button class="btn btn-secondary dropdown-togglen-s" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="drop">
-          Dropdown button 
-          </button>
+      </div>
+      
+        <div class="dropdown">
+        
+           <button class="btn btn-secondary dropdown-togglen-s" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="drop">
+             Dropdown button 
+           </button>
           
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </div>
-
-        </div>
-   
+    </div>
+ </div>  
         <div id="botoes">
-        <button>
-          <ion-icon name="add-outline"></ion-icon>
-          Adicionar Manual
-        </button>
 
-        <button>
-          <ion-icon name="add-outline"></ion-icon>
-          Adicionar Manual
-        </button>
+         <button id="adicionar">
+           <ion-icon name="add-outline"></ion-icon>
+            Adicionar Manual
+         </button>
+
+         <button id="exportar">
+            <ion-icon name="download-outline"></ion-icon>
+            Exportar Excel
+         </button>
+
         </div>
  
       </div>
     <!--Tabela que vai ser gerada com informacoes do QR CODE-->
       <div class="tabela">
+
         <table>
           <tr>
             <td>19/03/2026 R$ 156,80 Supermercado Central</td>
@@ -100,7 +105,9 @@
             <td>19/03/2026 R$ 156,80 Supermercado Central</td>
           </tr>
         </table>
+
       </div>
+
     </main>
     
   <!--scripts-->

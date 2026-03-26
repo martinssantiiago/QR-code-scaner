@@ -10,7 +10,8 @@
 
   button {
     margin: 5px;
-    width: 100%;
+    padding: 7px;
+    width: 90%;
   }
 
   #drop {
@@ -22,17 +23,27 @@
   }
 
   #procurar {
-    margin: 5px auto;
+    
     width: 100%;
   }
 
   .dropdown-menu {
+    width: 100%;
   }
 
   .dropdown {
     margin: auto;
     width: 100%;
   }
+
+ #botoes {
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+ }
+
+ 
+
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
