@@ -101,8 +101,10 @@ header {
   margin: 10px;
   width: 100%;
   
+  
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 13px;
 }
 
@@ -157,9 +159,10 @@ td {
  
 #exportar {
   background-color: oklch(0.627 0.194 149.214);
+  border: 1px solid oklch(0.627 0.194 149.214);
   color: white;
-  width: 80%;
-  padding: 20px;
+  width: 170.156px;
+  padding:  8px 10px;
   
   display: flex;
   align-items: center;
@@ -171,8 +174,9 @@ td {
   border: 1px solid oklch(0.811 0.111 293.571);
   color: oklch(0.491 0.27 292.581);
   background-color: white;
-  width: 80%; 
-  padding: 20px;
+  width: 170.156px; 
+  padding:  8px 10px;
+  
   
 
   display: flex;
@@ -194,6 +198,7 @@ button {
   border: none;
   border-radius: 10px;
   height: 36px;
+  
 }
 
 input {
@@ -204,7 +209,3 @@ input {
   width: 80%;
 }
 
-
-#btns {
-  
-}
