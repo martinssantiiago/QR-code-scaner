@@ -44,7 +44,7 @@ header {
   background-color: #f3e8ffc2;
   border: 1px solid #7c3aed62;
   border-radius: 20px;
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   padding: 30px;
   text-align: center;
@@ -111,7 +111,6 @@ header {
 }
 
 .atalhos {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -166,8 +165,6 @@ td {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  
-  
 }
 
 #adicionar {
@@ -181,6 +178,7 @@ td {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .botoes {
