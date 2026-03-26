@@ -40,9 +40,22 @@
       <div class="atalhos">
         <button class="btn">
           <ion-icon name="search-outline"></ion-icon>
-          Buscar Estabelecimento</button>
+          Buscar Estabelecimento
+        </button>
 
-        <button class="btn">todos os estabelecimentos</button>
+        <div class="dropdown">
+          <div class="dropdown-btn" onclick="toggleDropdown()">
+             Todos os Estabelecimentos
+             <ion-icon name="chevron-up-outline"></ion-icon>
+          </div>
+          <div class="dropdown-content" id="dropdownMenu">
+            <div onclick="selectItem(this)">Todos os Estabelecimentos</div>
+            <div onclick="selectItem(this)">Todos os Estabelecimentos</div>
+            <div onclick="selectItem(this)">Todos os Estabelecimentos</div>
+            <div onclick="selectItem(this)">Todos os Estabelecimentos</div>
+            <div onclick="selectItem(this)">Todos os Estabelecimentos</div>
+          </div>
+        </div>
 
         <button class="btn">Adicionar Manual</button>
 
@@ -71,5 +84,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
